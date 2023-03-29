@@ -10,7 +10,11 @@ namespace homwork03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello sharaf")
+            Console.WriteLine("hello sharaf");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write(i);
+            }
         }
     }
 }
